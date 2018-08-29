@@ -1,0 +1,230 @@
+
+body {
+  /*font-family: tahoma, Arial, "Microsoft YaHei", SimSun, sans-serif;*/
+  font-family: "PingFang SC", "Microsoft YaHei", "Microsoft JhengHei ";
+  color: #333;
+  background: #f6f6f6 fixed;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 70px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  /*background-color: #fff;*/
+  padding: 0;
+  margin: 0;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+  text-shadow: none
+}
+
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------- */
+html {
+  -webkit-text-size-adjust: none;
+}
+
+.video embed, .video object, .video iframe {
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto \9; /* ie8 */
+}
+
+/* h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Microsoft Yahei', sans-serif;
+  font-weight: 600;
+  color: #111;
+}
+
+h1 {
+  line-height: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #F44336;
+  outline: none !important;
+}
+
+a:link, a:visited {
+  color: #333
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.f-right {
+  float: right;
+}
+
+.f-left {
+  float: left;
+}
+
+.ta-right {
+  text-align: right !important;
+}
+
+.ta-left {
+  text-align: left !important;
+}
+
+.no-padding {
+  padding: 0 !important
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important
+}
+
+.no-padding-top {
+  padding-top: 0 !important
+}
+
+.no-padding-left {
+  padding-left: 0 !important
+}
+
+.no-padding-right {
+  padding-right: 0 !important
+}
+
+.no-margin {
+  margin: 0 !important
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important
+}
+
+.no-margin-top {
+  margin-top: 0 !important
+}
+
+.no-margin-left {
+  margin-left: 0 !important
+}
+
+.no-margin-right {
+  margin-right: 0 !important
+}
+
+.vam {
+  vertical-align: middle;
+}
+
+.cp {
+  cursor: pointer
+}
+
+.post:after, .post:before, article:after, article:before, section:after, section:before {
+  clear: both;
+  content: '\0020';
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.clearfix:after, .clearfix:before {
+  clear: both;
+  content: '\0020';
+  display: block;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+/* --Line-- */
+hr.line {
+  border-color: #ddd;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* color */
+.bg-blue {
+  background-color: #5db2ff !important;
+}
+::-webkit-scrollbar
+{
+  width: 9px;  /*滚动条宽度*/
+  height: 9px;  /*滚动条高度*/
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+  background-color: rgba(0,0,0,0);/*滚动条的背景颜色*/
+}
+
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;  /*滚动条的背景区域的圆角*/
+  background-color: rgba(136,136,136,0.5); /*滚动条的背景颜色*/
+}
+input {
+  outline:none;
+}
+

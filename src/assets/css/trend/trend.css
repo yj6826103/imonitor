@@ -1,0 +1,46 @@
+.trend {
+
+}
+
+.arc-box {
+  height: 30px;
+  width: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.arc-box span {
+  margin-right: 30px;
+  height: 30px;
+  line-height: 30px
+}
+
+.arc-box div {
+  color: #444;
+  float: left;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  /* font-size: 13px; */
+  font-weight: 600;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.arc-box .left-img {
+  float: left;
+  height: 30px;
+  width: 30px;
+}
+
+.arc-box .right-img {
+  height: 30px;
+  width: 30px;
+}
+
+.trend .table-content {
+  margin: 40px;
+}
+
+.trend .time-lines {
+}

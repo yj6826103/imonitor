@@ -1,0 +1,36 @@
+.copyRightArticle {
+  border: #e2e3e4 solid 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.copyRightArticle .title {
+  height: 45px;
+  line-height: 45px;
+  /* font-size: 12px; */
+  color: #444444;
+  border-bottom: #e2e3e4 solid 1px;
+}
+
+.copyRightArticle .content-img {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.copyRightArticle .content-text {
+  width: 100%;
+  text-align: center;
+  height: 300px;
+  line-height: 400px;
+  /* font-size: 14px; */
+  color: #999999;
+}
+
+.copyRightArticle .content {
+  padding-top: 10px;
+}
+
+.copyRightArticle .content p {
+  text-indent: 2em
+}

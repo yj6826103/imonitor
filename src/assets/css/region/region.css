@@ -1,0 +1,57 @@
+
+.region .histogram-box {
+  position: absolute;
+  align-content: center;
+  top: 0px;
+  right: 0px;
+  width: 43%;
+  background: white;
+  height: 700px;
+}
+
+.region .histogram-box .histogram {
+  padding-left: 50px;
+  margin-top: -35px;
+  z-index: 2;
+}
+
+.region .histogram-title {
+  background: white;
+  padding-top: 50px;
+  height: 100px;
+  z-index: 111111;
+  margin-left: -50px;
+}
+
+.region .histogram-title .right {
+  display: inline-block;
+  float: right;
+  width: 49%;
+}
+
+.region .histogram-title .left {
+  display: inline-block;
+  width: 49%;
+}
+
+.region .histogram-title div {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  /* font-size: 16px; */
+}
+
+.region .histogram-title span {
+  display: inline-block;
+  width: 100%;
+  /* font-size: 17px; */
+  font-weight: bold;
+  text-align: center;
+  color: #3B87F5;
+}
+
+.region .table-content {
+  margin: 40px;
+}

@@ -1,0 +1,73 @@
+.search-list {
+  height: 100%;
+  padding-left: 80px;
+  width: 520px;
+  padding-bottom: 30px;
+  background: #ffffff;
+}
+
+.search-list .title-bar {
+  height: 40px;
+  line-height: 40px;
+  position: fixed;
+  top: 80px;
+  left: 80px;
+}
+
+.search-list .list {
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.search-list .search-num {
+  margin-top: 20px;
+  color: #d0d0d0;
+  /* font-size: 12px; */
+  margin-bottom: 5px;
+}
+
+.search-list .item-box {
+  height: 90px;
+}
+
+.search-list .item-title {
+  /* font-size: 18px; */
+  font-weight: bolder;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.search-list .item-span-left {
+  float: left;
+  display: inline-block;
+  width: 280px;
+  /* font-size: 14px; */
+  color: #444444;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-list .item-span-right {
+  float: right;
+  display: inline-block;
+  /* font-size: 14px; */
+  color: #444444;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-list .sorry {
+  color: #dfdfdf;
+}
+

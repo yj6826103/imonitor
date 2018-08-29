@@ -1,0 +1,292 @@
+.monitorCustomization .choose_close,
+.choose_close{
+    font-size: 5px
+}
+.platform_collapse_header .selected .selected_clear {
+    font-size: 8px
+}
+.platform_collapse_header .selected .selected_item_active,
+.monitorCustomization .has-choose-name .cancel,
+.monitorCustomization .has-choose span,
+.platform_content .has-choose,
+.iM_sidebar_group_arrow {
+    font-size: 10px
+}
+.uploadArticleContent .progress span .Uploading{
+    font-size: 11px
+}
+
+.copyRightArticle .title,.copyRightTables .item .content ,
+.compare-copyright .buttonNormal span ,
+.compare-copyright .buttonSelect span,
+.compare-copyright span,
+.monitorList .monitorList-item div,
+.platform_collapse .platform_collapse_item_active .contrast_count ,
+.search-list .search-num,
+.works_header .sureBtn,
+.platform_content .execute-comparison span,
+.reprint .media-num,
+.reprint .media-more,
+.uploadArticleContent .uploadTitle input,
+.choose-article-list .item div{
+    font-size: 12px
+}
+
+.app .content,
+h6,
+.topSelectTop .item,
+.copyRightArticle .content-text,
+.copyRightTables .item .title,
+.optionList .name,
+.monitorList .list-box-none,
+.search-list .item-span-left,
+.search-list .item-span-right,
+.floating-ball,
+.IM_time_frame_range,
+.uploadArticleContent .uploadControl,
+.el-table .cell,
+.text_rzl,
+.text_link_rzl,
+.fontSize14,
+.spread_item{
+    font-size: 14px
+}
+@media screen and (min-width:1441px)and (max-width:1920px){
+
+    .platform_collapse_header .selected,
+    .platform_collapse_header .selected .selected_item_nomal,
+    .iM_refresh_time,
+    .messagebox .content .sure button,
+    .zctables_title,
+    .zctables .zctables_select,
+    .comments_list .comment_item,
+    .comments_list .comment_type .selected,
+    .comments_list .comment_type .nomal,
+    .platform_content .has-choose-title,
+    .empty_block,
+    .noMoreData{
+        font-size: 15px
+    }
+
+    .app .confirm ,.app .cancel,h5 ,.copyRightTables .title-box span,
+    .region .histogram-title div,
+    .submit,
+    .menu_item,
+    .iM_sidebar_item,
+    .iM_sidebar_item_selected,
+    .IM_time_frame_report,
+    .monitorCustomization .title,
+    .monitorCustomization .title1,
+    .content_top,
+    .platform_content .title,
+    .platform_content .table-title,
+    .spreadAnalyze .add-button,
+    .uploadArticleContent .upload_left,
+    .uploadArticleContent .chooseExcel .chooseBtn,
+    .uploadArticleContent  .upload_buttons input,
+    .iM_sidebar_group,
+    .iM_sidebar_group_selected,
+    .iM_sidebar_item,
+    .IM_topbar_more_title,
+    .IM_topbar_search .el-input-group__append,
+    .fontSize16{
+        font-size: 16px
+    }
+
+    .region .histogram-title span,
+    .legend,
+    .timeLine_legend{
+        font-size: 17px
+    }
+
+    .app .content span,.IM_menu_content,h4,
+    .search-list .item-title,
+    .IM_topbar_user_title,
+    .region_chart_title_l div, .region_chart_title_r div,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .platform_content .arrow,
+    .region_chart_title_l div, .region_chart_title_r div ,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .spreadAnalyze .title-bar span,
+    .IM_menu_item{
+        font-size: 18px
+    }
+
+    h3, .platform_collapse_header .arrow_active,
+    .platform_collapse_header .arrow_nomal,
+    .iM_sidebar_group_one,
+    .monitorCustomization .has-choose-name i,
+    .detail_article_title,
+    .title_rzl,
+    .iM_sidebar_tenant,
+    .iM_sidebar_tenant_selected,
+    .iM_sidebar_custom,
+    .IM_sidebar_tools_item,
+    .fontSize20{
+        font-size: 20px;
+    }
+
+
+    .monitorCustomization .search-icon{
+        font-size: 22px
+    }
+
+
+    h2,.fontSize24 {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+}
+@media screen and (max-width:1440px){
+    .monitorList .monitorList-header div ,.fontSize13,
+    .arc-box div,
+    .works_content .title-hint,
+    .works_header .works_header_save,
+    .monitorCustomization .has-choose-name input,
+    .table_export,
+    .platform_content .title-hint,
+    .choose-article-list .list-header div,
+    .comparison-article-list .list-item,
+    .comparison-article-list .header-item{
+        font-size: 12px
+    }
+    .app .content,
+    h6,
+    .topSelectTop .item,
+    .copyRightArticle .content-text,
+    .copyRightTables .item .title,
+    .optionList .name,
+    .monitorList .list-box-none,
+    .search-list .item-span-left,
+    .search-list .item-span-right,
+    .floating-ball,
+    .uploadArticleContent .uploadControl,
+    .el-table .cell,
+    .text_rzl,
+    .text_link_rzl,
+    .fontSize14,
+    .spread_item{
+        font-size: 12px
+    }
+    .app .content span,.IM_menu_content,h4,
+    .search-list .item-title,
+    .region_chart_title_l div, .region_chart_title_r div,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .platform_content .arrow,
+    .region_chart_title_l div, .region_chart_title_r div ,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .spreadAnalyze .title-bar span,
+    .IM_topbar_more_title,
+    .iM_sidebar_group,
+    .iM_sidebar_group_selected,
+    .IM_topbar_search .el-input-group__append,
+    .IM_menu_item{
+        font-size: 14px
+    }
+    h3, .platform_collapse_header .arrow_active,
+    .platform_collapse_header .arrow_nomal,
+    .iM_sidebar_group_one,
+    .monitorCustomization .has-choose-name i,
+    .detail_article_title,
+    .title_rzl,
+    .iM_sidebar_tenant,
+    .iM_sidebar_tenant_selected,
+    .iM_sidebar_custom,
+    .fontSize20,
+    .IM_topbar_user_title{
+        font-size: 16px;
+    }
+
+    .monitorCustomization .search-icon,
+    .IM_sidebar_tools_item{
+        font-size: 18px
+    }
+
+
+    h2,.fontSize24 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+@media screen and (min-width:1921px){
+    .app .confirm ,.app .cancel,h5 ,.copyRightTables .title-box span,
+    .region .histogram-title div,
+    .submit,
+    .menu_item,
+    .iM_sidebar_item,
+    .iM_sidebar_item_selected,
+    .IM_time_frame_report,
+    .monitorCustomization .title,
+    .monitorCustomization .title1,
+    .content_top,
+    .platform_content .title,
+    .platform_content .table-title,
+    .spreadAnalyze .add-button,
+    .uploadArticleContent .upload_left,
+    .uploadArticleContent .chooseExcel .chooseBtn,
+    .uploadArticleContent  .upload_buttons input,
+    .iM_sidebar_group,
+    .iM_sidebar_group_selected,
+    .iM_sidebar_item,
+    .IM_topbar_more_title,
+    .IM_topbar_search .el-input-group__append,
+    .fontSize16{
+        font-size: 16px
+    }
+
+    .region .histogram-title span,
+    .legend{
+        font-size: 17px
+    }
+
+    .app .content span,.IM_menu_content,h4,
+    .search-list .item-title,
+    .IM_topbar_user_title,
+    .region_chart_title_l div, .region_chart_title_r div,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .platform_content .arrow,
+    .region_chart_title_l div, .region_chart_title_r div ,
+    .region_chart_title_l span, .region_chart_title_r span,
+    .spreadAnalyze .title-bar span,
+    .IM_menu_item{
+        font-size: 20px
+    }
+
+    h3, .platform_collapse_header .arrow_active,
+    .platform_collapse_header .arrow_nomal,
+    .iM_sidebar_group_one,
+    .monitorCustomization .has-choose-name i,
+    .detail_article_title,
+    .title_rzl,
+    .iM_sidebar_tenant,
+    .iM_sidebar_tenant_selected,
+    .iM_sidebar_custom,
+    .IM_sidebar_tools_item,
+    .fontSize20{
+        font-size: 20px;
+    }
+
+
+    .monitorCustomization .search-icon{
+        font-size: 22px
+    }
+
+
+    h2,fontSize24 {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+.linkPointer canvas{
+    cursor: auto;
+}

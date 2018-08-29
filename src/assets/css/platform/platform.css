@@ -1,0 +1,224 @@
+/**************common-style************/
+.lineH60{
+  line-height: 60px;
+}
+
+.platform_content {
+  background: #FAFAFB;
+  margin-top: 5px;
+  /*清除双击选中文字效果*/
+  user-select: none;
+  overflow-x: hidden;
+}
+
+/*****************折叠面板***************/
+.platform_collapse {
+  position: relative;
+  border-top: 1px solid #E2E3E4;
+  border-bottom: 1px solid #E2E3E4;
+  padding: 0 50px;
+  background: white;
+}
+.platform_collapse .search-icon {
+  position: absolute;
+  right: 60px;
+  font-size: 22px;
+  top: 5px;
+}
+.platform_collapse >>> .el-checkbox__inner {
+  border-radius: 10px;
+}
+
+.platform_collapse >>> .el-input__inner {
+  width: 280px;
+  height: 31px;
+  margin-top: 2px;
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+/*****************折叠面板头部***************/
+.platform_collapse_header {
+  background-color: white;
+  cursor: pointer;
+  min-width: 1000px;
+}
+
+.platform_collapse_header .arrow_active {
+  float: right;
+  background-color: white;
+  cursor: default;
+  color: #3B87F5;
+  /* font-size: 20px; */
+}
+.platform_collapse_header .arrow_nomal {
+  float: right;
+  background-color: white;
+  cursor: default;
+  color: #3B87F5;
+  /* font-size: 20px; */
+}
+
+/*激活状态下搜索框*/
+.platform_collapse_header .search_active {
+  float: left;
+  margin-right: 30px;
+}
+
+/*未激活状态下搜索框*/
+.platform_collapse_header .search_nomal {
+  float: left;
+  margin-right: 30px;
+}
+
+/*修改未激活状态下搜索框样式*/
+.platform_collapse_header .search_nomal >>> .el-input__inner {
+  height: 30px;
+  width: 300px;
+  border: 0;
+  background-color: white;
+}
+
+/*修改激活状态下搜索框样式*/
+.platform_collapse_header .search_active >>> .el-input__inner {
+  height: 30px;
+  width: 300px;
+  border-radius: 50px;
+  font-size: 10px;
+}
+
+/**********************已选平台******************************/
+.platform_collapse_header .selected {
+  float: left;
+  /* font-size: 15px; */
+}
+
+/*激活状态下已选平台按钮样式*/
+.platform_collapse_header .selected .selected_item_active {
+  border: #3B87F5 1px solid;
+  margin-right: 5px;
+  /* font-size: 10px; */
+  color: #3B87F5;
+  display: inline-block;
+  height: 20px;
+  padding-left: 5px;
+  line-height: 20px;
+  border-radius: 14px;
+}
+
+
+/*未激活状态下已选平台按钮样式*/
+.platform_collapse_header .selected .selected_item_nomal {
+  margin-right: 5px;
+  /* font-size: 15px; */
+  color: #3B87F5;
+  display: inline-block;
+  height: 20px;
+  padding: 0 5px;
+  line-height: 20px;
+  border-radius: 14px;
+  cursor: default;
+}
+
+/*激活状态下删除按钮样式*/
+.platform_collapse_header .selected .selected_item_active i {
+  background: #3B87F5;
+  color: white;
+  line-height: 18px;
+  border: #3B87F5 1px solid;
+  border-radius: 0px 10px 10px 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: right;
+  margin-left: 5px;
+}
+
+/*清空按钮样式*/
+.platform_collapse_header .selected .selected_clear {
+  border: #3B87F5 1px solid;
+  /* font-size: 8px; */
+  color: #3B87F5;
+  display: inline-block;
+  height: 15px;
+  padding: 0 5px;
+  line-height: 15px;
+  border-radius: 14px;
+}
+
+/**********************折叠面板主体内容**********************/
+.platform_collapse .platform_collapse_item {
+  background-color: white;
+  display: none;
+}
+
+.platform_collapse .platform_collapse_item_active {
+  background-color: white;
+  height: auto;
+  padding-top: 10px;
+}
+
+/**/
+.collapse_item .collapse_item_name{
+  float: left;
+  margin-right: 10px;
+  width: 35px;
+}
+
+.collapse_item .collapse_item_title{
+  float: left;
+  max-height: 60px;
+  overflow-y: auto;
+  max-width: 96%;
+}
+
+/*修改按钮形状为圆形*/
+>>>.el-checkbox__inner {
+  border-radius: 10px;
+}
+
+/*平台块的属性*/
+>>>.el-checkbox{
+  padding: 0;
+  margin: 0;
+  padding-right: 50px;
+  margin-bottom: 10px;
+}
+
+/*对比统计按钮*/
+.platform_collapse .platform_collapse_item_active .contrast_count{
+  text-align: center;
+  padding: 20px 0;
+  /* font-size: 12px; */
+}
+.platform_collapse .platform_collapse_item_active .contrast_count span{
+  border: #3B87F5 1px solid;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #3B87F5;
+  color: white;
+  cursor: pointer;
+}
+
+
+/*************************图标部分************************/
+.platform_charts {
+  margin-top: 5px;
+  background-color: #FAFAFB;
+}
+.platform_charts_item{
+  background-color: white;
+  float: left;
+  width: calc((100% - 15px)/2);
+  /*padding: 20px 30px;*/
+  border: 1px solid #E2E3E4;
+  margin-bottom: 5px;
+  min-width: 500px;
+
+}
+.platform_charts_item_left{
+  margin-right: 5px;
+  border-left: 0;
+}
+.platform_charts_item_right{
+  border-right: 0;
+}

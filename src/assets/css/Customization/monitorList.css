@@ -1,0 +1,73 @@
+.monitorList {
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.monitorList .index {
+  width: 5%;
+}
+
+.monitorList .name {
+  width: 23%;
+}
+
+.monitorList .items {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 24%;
+}
+
+.monitorList .time {
+  width: 29%;
+}
+
+.monitorList .del {
+  width: 14%;
+  cursor:pointer;
+}
+
+.monitorList .monitorList-header div {
+  display: inline-block;
+  vertical-align:top;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  /* font-size: 13px; */
+  font-weight: bold;
+}
+
+.monitorList .monitorList-header {
+  background: #F4f4f4;
+}
+
+.monitorList .monitorList-item {
+  border-top: 1px solid #F4f4f4;
+}
+
+.monitorList .list-box-none {
+  border-bottom: #F4f4f4 1px solid;
+  text-align: center;
+  /* font-size: 14px; */
+  height: 45px;
+  line-height: 45px;
+}
+
+.monitorList .monitorList-item div {
+  display: inline-block;
+  vertical-align:top;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  /* font-size: 12px; */
+}
+
+.monitorList .delete {
+  padding: 5px 12px 5px 12px;
+  border: 1px solid #9b9b9b;
+  color: #9b9b9b;
+  border-radius: 13px;
+}
+
+
+
